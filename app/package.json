@@ -1,0 +1,59 @@
+{
+  "name": "argon-suite",
+  "version": "0.2.0",
+  "author": "",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bonfida/spl-name-service": "*",
+    "@civic/solana-gateway-react": "*",
+    "@coral-xyz/anchor": "^0.28.1-beta.1",
+    "@coral-xyz/borsh": "^0.28.0",
+    "@heroicons/react": "^2.0.18",
+    "@metaplex-foundation/mpl-token-metadata": "^3.1.1",
+    "@noble/ed25519": "^2.0.0",
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/spl-token": "*",
+    "@solana/wallet-adapter-base": "*",
+    "@solana/wallet-adapter-react": "*",
+    "@solana/wallet-adapter-react-ui": "*",
+    "@solana/wallet-adapter-wallets": "*",
+    "@solana/web3.js": "*",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.427",
+    "@tailwindcss/typography": "^0.5.9",
+    "@vercel/analytics": "^1.0.2",
+    "daisyui": "^3.5.1",
+    "date-fns": "^2.29.3",
+    "immer": "^10.0.2",
+    "next": "^14.2.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "tweetnacl": "^1.0.3",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.0.27",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.1.5",
+    "next-pwa": "^5.6.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
